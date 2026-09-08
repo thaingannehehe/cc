@@ -57,7 +57,6 @@ export default function Home() {
         <GalleryView
           destinations={destinations}
           initialIndex={index}
-          transition={go}
           onSelect={(i) => {
             go(() => {
               setIndex(i)
